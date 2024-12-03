@@ -15,4 +15,9 @@ public class Question implements Serializable {
  * and a the correct anwser no# (like if the correct anwser is option 2 the
  * correctoption = 2)
  * 
+ * all in a single "object" of Question and keep on increasing in sets** of
+ * question if added to a list
+ *  
+ * this questions can either be displayed or can be created by the user
+ * 
  */
