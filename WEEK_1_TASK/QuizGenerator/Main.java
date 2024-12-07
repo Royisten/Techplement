@@ -25,7 +25,8 @@ public class Main {
                     break;
                 case 3:
                 System.out.println("Exiting Quiz Generator. Goodbye :)");    
-                    break;
+                scanner.close(); // Close the Scanner to release resources
+                return; // Exit the `main` method, which stops the program
                 default:
                     System.out.println("Invalid choice . Please try again.");
             }
