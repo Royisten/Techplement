@@ -46,7 +46,8 @@ public class QuizManager {
         quizHolder.add(quiz); //! added the quiz to the quizManager(list) 
     }
 
-    //? allows the user to take quiz if akready created
+    //? allows the user to take quiz if already created
+    
     public void takeQuiz(){
         if (quizHolder.isEmpty()) {
             System.out.println("No Quiz available!, Please Create a quiz first.");
