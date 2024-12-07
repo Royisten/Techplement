@@ -20,7 +20,7 @@ public class Quiz implements Serializable {
     }
 
     // ? adds a question to the quiz
-    // ? (each intances of "Question.java" is added to the arraylist<> questions)
+    // ? (each intances of "Question.java" is added to the arraylist<> questionHolder)
     public void addQuestion(Question question) {
         questionsHolder.add(question);
     }
@@ -37,11 +37,11 @@ public class Quiz implements Serializable {
         System.out.println("-----------------------");
 
         for (Question question : questionsHolder) {
-            question.displayQuestion(); // shows the pre-created questions by the user
+            question.displayQuestion(); // shows the pre-created questions and it's options by the user
             System.out.println("Your answer (1-4): ");
             int userAnswer = scanner.nextInt();
 
-            if (question.isCorrect(userAnswer)) {
+            if (question.isCorrect(userAnswer)) {//! returns (correctOption) if not goes to else statement
                 System.out.println("Correct ! \n");
                 score++;
             } else {
@@ -53,7 +53,7 @@ public class Quiz implements Serializable {
         }
     }
 
-    // shows the name of the quiz at the end
+    // shows the topic name of the quiz at the end
     public String getName() {
         return QuizTopicName;
     }
