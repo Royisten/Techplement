@@ -28,7 +28,7 @@ To run the application, simply execute the `Main.java` class.
 
     You can enter a number to select one of the options:
 
-    - **1**: Create a new quiz by providing a quiz topic, questions, options, and the correct answer.
+    - **1**: Create a new quiz by providing a quiz topic, questions, options, and the correct answer.(type "DONE" to finish writing a question and also it's options)
     - **2**: Take an existing quiz, select a quiz from the available list, and answer the questions.
     - **3**: Exit the application.
 
