@@ -66,15 +66,15 @@ To run the application from the terminal:
    ```bash
    javac WEEK_1_TASK/QuizGenerator/*.java
 
-### FAQ   
+## FAQ   
 
-#### Q: How do I add a new quiz?
+### Q: How do I add a new quiz?
  - Run the program and select `Option 1` from the menu. You will be prompted to enter the quiz topic, questions, options, and correct answers.
  
-#### Q: How do I exit the program?
+### Q: How do I exit the program?
  - Select `Option 3` from the menu. The program will terminate and display a goodbye message.
 
-### Additional Notes
+## Additional Notes
 
 - Ensure you have the `Java Development Kit (JDK)` installed on your system to compile and run the application.
 
