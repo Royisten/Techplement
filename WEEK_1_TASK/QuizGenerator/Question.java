@@ -31,17 +31,3 @@ public class Question implements Serializable {
 
 }
 
-/*
- * This class creates a single set of a question (plain text) ,
- * and it options
- * (4 options with a right answer)
- * and a the correct anwser no# (like if the correct anwser is option 2 the
- * correctoption = 2)
- * 
- * All in a single "object" of Question and keep on increasing in sets** of
- * question if added to a list
- * 
- * This questions** can either be displayed (if already created)
- * or can be created (if empty) by the user
- * 
- */
